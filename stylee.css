@@ -1,0 +1,84 @@
+
+
+
+:root
+{
+    --main-color:#4726e1;
+}
+.text-main
+{
+    color:var(--main-color)
+}
+
+
+
+header
+{
+    background-image: url(image/27.jpg)
+    ;background-size: cover
+    ;background-position: center center;
+}
+
+.icon
+{
+    width: 2rem
+    ;height: 2rem
+}
+
+.title h2
+{
+    font-size: 5rem
+    ;font-weight: 900
+    ;color: #f4f4f4
+    ;letter-spacing:10px ;
+}
+.title h3
+{
+    font-size: 2.5rem
+    ;font-weight: 900
+    ;color: black
+    ;letter-spacing: 5px;
+}
+
+.logo
+{
+    width:60px ;
+}
+
+.client-feedback
+{
+    border: solid 4px #f1f1f1;
+}
+.client-img
+{
+    width: 100px;
+    ;border: solid 4px #f4f4f4
+    ;border-radius: 75%;
+    transform: translateY(50%);
+}
+.client-feedback h6
+{
+    position: relative;
+}
+.client-feedback h6::after
+{
+    content: '';
+    background-color: var(--main-color)
+    ;height: 2px
+    ;width: 20%
+    ;position: absolute
+    ;left: 40%
+    ;top: 100%;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 30px
+    ;height:30px 
+    ;border-radius: 50%
+    ;text-indent: 0
+    ;border: solid 3px #f1f1f1;
+}
+
+
+
